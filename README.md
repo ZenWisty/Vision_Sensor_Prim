@@ -5,7 +5,8 @@ Vision input forward module for later modules in Intelegents projects. <br>
 硬件：ESP32开发板， OV2640摄像头，USB OT TTL 驱动。<br>
 将ESP32的“输出”和“输入” 分别与 TTL 的RXD(输入)和TXD(输出)相接。然后将两者的GND 和 3v3(烧代码时)相接。<br>
 <img src="./doc/1.PNG">
-<img src="./doc/2.PNG"><br>
+<img src="./doc/2.PNG">
+<img src="./doc/4.PNG"><br>
 通过ESP32的资料，我们了解应当在烧写代码的时候将 GPIO0 设为低电频，因此将 GPIO0 直接与 板子上的 GND 短接，在烧写完代码之后再将其做好。<br>
 
 烧到板子上的软件：[./CameraCase/](./CameraCase/) <br>
